@@ -15,7 +15,7 @@ class Calculator:
     def addition(self):
         res = self.a + self.b
         return res
-    0
+    
     def subtraction(self):
         res = self.a - self.b
         return res
