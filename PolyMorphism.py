@@ -20,7 +20,7 @@ class Developer(Employee):
         Employee.display(self)
         print('Desk ID: ', self.deskId)
 
-    def increamnet(self):
+    def increament(self):
         self.salary = self.salary * self.raise_sal
 
 
@@ -34,7 +34,7 @@ class Manager(Employee):
         Employee.display(self)
         print('Cabin ID: ', self.cabinId)
 
-    def increamnet(self):
+    def increament(self):
         self.salary = self.salary * self.raise_sal
 
 class Company:
@@ -46,7 +46,10 @@ class Company:
             emp.display()
 
     def raise_salary(self, emp):
-        emp.increamnet()
+        emp.increament()
+
+    def add_employee(self, emp):
+        self.employees.append(emp)
 
 d1 = Developer(1, 'ABC', 5000, 101, 1.3)
 m1 = Manager(2, 'XYZ', 8000, 201, 1.5)
