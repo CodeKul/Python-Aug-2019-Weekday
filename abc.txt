@@ -1,0 +1,19 @@
+Name: ABC
+RNO: 12
+Marks: 97
+
+Name: XYZ
+RNO: 12
+Marks: 97
+
+Name: PQR
+RNO: 12
+Marks: 97
+
+Name: AZQ
+RNO: 12
+Marks: 97
+
+Name: ABR
+RNO: 12
+Marks: 97
