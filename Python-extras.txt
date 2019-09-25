@@ -1,0 +1,7 @@
+1) Data abstraction
+2) Encapsulation
+3) Polymorphism
+4) BS4 image scraping
+5) Tkinter
+6) Socket programming
+7) CGI

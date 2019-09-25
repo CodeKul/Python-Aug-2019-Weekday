@@ -11,7 +11,7 @@ class Employee:
 
 
 class Developer(Employee):
-    def __init__(self, empid, name, salary, deskId, raise_sal):
+    def __init__(self, empid, name, salary, deskId, raise_sal = 1.3):
         self.deskId = deskId
         self.raise_sal = raise_sal
         Employee.__init__(self, empid, name, salary)
@@ -25,7 +25,7 @@ class Developer(Employee):
 
 
 class Manager(Employee):
-    def __init__(self, empid, name, salary, cabinId, raise_sal):
+    def __init__(self, empid, name, salary, cabinId, raise_sal = 1.5):
         self.cabinId = cabinId
         self.raise_sal = raise_sal
         Employee.__init__(self, empid, name, salary)
@@ -51,8 +51,8 @@ class Company:
     def add_employee(self, emp):
         self.employees.append(emp)
 
-d1 = Developer(1, 'ABC', 5000, 101, 1.3)
-m1 = Manager(2, 'XYZ', 8000, 201, 1.5)
+d1 = Developer(1, 'ABC', 5000, 101)
+m1 = Manager(2, 'XYZ', 8000, 201)
 
 # d1.display()
 # m1.display()
