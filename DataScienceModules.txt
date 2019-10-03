@@ -1,0 +1,12 @@
+1) Data Analysis
+- Pandas
+- NumPy
+- SciPy
+
+2) Data Visualisation
+- Matplotlib
+
+3) Machine Learning
+- Scikit learn
+- Pybrain
+- Tensorflow
