@@ -3,6 +3,9 @@ import matplotlib.pyplot as pt
 import pandas as pd
 from sklearn.tree import DecisionTreeClassifier
 
+# Dataset
+# https://www.kaggle.com/c/digit-recognizer/data
+
 data = pd.read_csv('digitdata/train.csv').as_matrix()
 # print(data)
 
